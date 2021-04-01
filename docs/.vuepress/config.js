@@ -1,10 +1,10 @@
 module.exports = {
     title: '多放香菜',
-     base: '/vuepress/',//部署在github的仓库
+    base: '/vuepress/',//部署在github的仓库
     head: [
         [
             'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
-            { rel: 'icon', href: '/img/me.jpg' }
+            {rel: 'icon', href: '/img/me.jpg'}
         ]
     ],
     description: '记录知识',
@@ -29,15 +29,15 @@ module.exports = {
         ],
         //侧边栏
         sidebar: {
-            '/dev_note/':[
+            '/dev_note/': [
                 '',
                 'JWT+Rides处理登录超时',
                 'RESTful架构',
             ],
-            '/sui_sui_nian/':[
+            '/sui_sui_nian/': [
                 ''
             ],
-            '/share/':[
+            '/share/': [
                 '',
                 'FEBS权限框架',
                 '蘑菇博客'
