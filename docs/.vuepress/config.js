@@ -1,6 +1,6 @@
 module.exports = {
     title: '多放香菜',
-     // base: '/vuepress/',//部署在github的仓库
+     base: '/vuepress/',//部署在github的仓库
     head: [
         [
             'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
@@ -19,6 +19,7 @@ module.exports = {
             {text: '资源下载', link: '/share/'},
             {text: '碎碎念', link: '/sui_sui_nian/'},
             {text: '友链', link: '/friendship/'},
+            {text: '留言', link: '/message/'},
             {
                 text: '个人', items: [
                     {text: 'github', link: 'https://github.com/yanhui-l/vuepressBlog'},
