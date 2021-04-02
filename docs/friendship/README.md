@@ -1,0 +1,3 @@
+<ClientOnly>
+  <friendship-link/>
+</ClientOnly>
