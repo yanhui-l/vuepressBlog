@@ -35,7 +35,7 @@
                         address: "https://doc.siyuh.com/"
                     },
                     {
-                        title: "moben",
+                        title: "mohen",
                         signature: "我亦无他，唯手熟尔",
                         avatar: "https://mohen19.github.io/favicon.png",
                         address: "https://mohen19.github.io/"
