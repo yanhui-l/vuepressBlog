@@ -1,13 +1,13 @@
 module.exports = {
     title: '多放香菜',
-     base: '/vuepress/',//部署在github的仓库
+     // base: '/vuepress/',//部署在github的仓库
     head: [
         [
             'link', // 设置 favicon.ico，注意图片放在 public 文件夹下
             { rel: 'icon', href: '/img/me.jpg' }
         ]
     ],
-    description: '记录知识',
+    description: '记录与分享',
     themeConfig: {
         logo: '/img/me.jpg',//图标
         search: true,//搜索
@@ -37,7 +37,8 @@ module.exports = {
                 'RESTful架构',
             ],
             '/sui_sui_nian/':[
-                ''
+                '',
+                '亲爱的周游'
             ],
             '/share/':[
                 '',

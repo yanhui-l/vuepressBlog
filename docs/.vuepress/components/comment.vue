@@ -14,12 +14,17 @@
             let script = document.createElement('script');
             script.src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js';
             body.appendChild(script);
-            // console.log('location :', location);
-            // console.log('location.pathname :', location.pathname);
             script.onload = () => {
                 const commentConfig = {
-                    clientID: '73ac8dd38e08513d7923',
-                    clientSecret: '216b926d0bea4c0ad7e4e108fc9318347e4c6e4c', // come from github development
+
+                    //github部署用这个库
+                    // clientID: '73ac8dd38e08513d7923',
+                    // clientSecret: '216b926d0bea4c0ad7e4e108fc9318347e4c6e4c',
+
+                    //服务器部署用这个库
+                    clientID: '1eecda3b7beea7a53b45',
+                    clientSecret: 'f87a479515c22131d4d8f9e8a72f76809c16b3ac',
+
                     repo: 'blog-comment',
                     owner: 'yanhui-l',
                     // 这里接受一个数组，可以添加多个管理员，可以是你自己
