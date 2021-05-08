@@ -38,7 +38,7 @@ module.exports = {
             ],
             '/sui_sui_nian/':[
                 '',
-                '亲爱的周游'
+                '五月天'
             ],
             '/share/':[
                 '',
